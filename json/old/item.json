@@ -1,0 +1,19 @@
+{
+    "operation": "add_item",
+    "table_operation": [
+        {
+            "table_name": "item",
+            "operation": "insert",
+            "rows": [
+                {
+                    "_id": "[value]",
+                    "barcode": "[value]",
+                    "item_name": "[value]",
+                    "item_brand": "[value]",
+                    "item_category": "[value]",
+                    "item_price": "[value]"
+                }
+            ]
+        }
+    ]
+}

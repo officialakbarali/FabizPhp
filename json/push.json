@@ -1,0 +1,183 @@
+[
+    {
+        "table_name": "staff",
+        "rows": [
+            {
+                "_id": "[value]",
+                "name": "[value]"
+            },
+            {
+                "_id": "[value]",
+                "name": "[value]"
+            }
+        ]
+    },
+    {
+        "table_name": "item",
+        "rows": [
+            {
+                "_id": "[value]",
+                "barcode": "[value]",
+                "item_name": "[value]",
+                "item_brand": "[value]",
+                "item_category": "[value]",
+                "item_price": "[value]",
+                "item_vat_percentage": "[value]",
+                "item_vat_amount": "[value]",
+                "item_total_price": "[value]"
+            },
+            {
+                "_id": "[value]",
+                "barcode": "[value]",
+                "item_name": "[value]",
+                "item_brand": "[value]",
+                "item_category": "[value]",
+                "item_price": "[value]",
+                "item_vat_percentage": "[value]",
+                "item_vat_amount": "[value]",
+                "item_total_price": "[value]"
+            }
+        ]
+    },
+    {
+        "table_name": "customer",
+        "rows": [
+            {
+                "_id": "[value]",
+                "staff_id": "[value]",
+                "cr_no": "[value]",
+                "shop_name": "[value]",
+                "customer_name": "[value]",
+                "phone": "[value]",
+                "email": "[value]",
+                "address": "[value]",
+                "day": "[value]",
+                "vat_no": "[value]",
+                "telephone": "[value]"
+            },
+            {
+                "_id": "[value]",
+                "staff_id": "[value]",
+                "cr_no": "[value]",
+                "shop_name": "[value]",
+                "customer_name": "[value]",
+                "phone": "[value]",
+                "email": "[value]",
+                "address": "[value]",
+                "day": "[value]",
+                "vat_no": "[value]",
+                "telephone": "[value]"
+            }
+        ]
+    },
+    {
+        "table_name": "sales_detail",
+        "rows": [
+            {
+                "_id": "[value]",
+                "customer_id": "[value]",
+                "date": "[value]",
+                "qty": "[value]",
+                "total": "[value]",
+                "total_vat_amount": "[value]",
+                "grand_total": "[value]",
+                "returned_total": "[value]",
+                "current_total": "[value]",
+                "paid": "[value]",
+                "due": "[value]"
+            },
+            {
+                "_id": "[value]",
+                "customer_id": "[value]",
+                "date": "[value]",
+                "qty": "[value]",
+                "total": "[value]",
+                "total_vat_amount": "[value]",
+                "grand_total": "[value]",
+                "returned_total": "[value]",
+                "current_total": "[value]",
+                "paid": "[value]",
+                "due": "[value]"
+            }
+        ]
+    },
+    {
+        "table_name": "sales_cart",
+        "rows": [
+            {
+                "_id": "[value]",
+                "bill_id": "[value]",
+                "item_id": "[value]",
+                "item_name": "[value]",
+                "item_brand": "[value]",
+                "item_category": "[value]",
+                "item_price": "[value]",
+                "item_vat_percentage": "[value]",
+                "item_vat_amount": "[value]",
+                "item_total_price": "[value]",
+                "qty": "[value]",
+                "total": "[value]",
+                "total_vat_amount": "[value]",
+                "grand_total": "[value]",
+                "item_return_qty": "[value]"
+            },
+            {
+                "_id": "[value]",
+                "bill_id": "[value]",
+                "item_id": "[value]",
+                "item_name": "[value]",
+                "item_brand": "[value]",
+                "item_category": "[value]",
+                "item_price": "[value]",
+                "item_vat_percentage": "[value]",
+                "item_vat_amount": "[value]",
+                "item_total_price": "[value]",
+                "qty": "[value]",
+                "total": "[value]",
+                "total_vat_amount": "[value]",
+                "grand_total": "[value]",
+                "item_return_qty": "[value]"
+            }
+        ]
+    },
+    {
+        "table_name": "payment",
+        "rows": [
+            {
+                "_id": "[value]",
+                "bill_id": "[value]",
+                "date": "[value]",
+                "amount": "[value]"
+            },
+            {
+                "_id": "[value]",
+                "bill_id": "[value]",
+                "date": "[value]",
+                "amount": "[value]"
+            }
+        ]
+    },
+    {
+        "table_name": "sales_return",
+        "rows": [
+            {
+                "_id": "[value]",
+                "date": "[value]",
+                "bill_id": "[value]",
+                "item_id": "[value]",
+                "price": "[value]",
+                "qty": "[value]",
+                "total": "[value]"
+            },
+            {
+                "_id": "[value]",
+                "date": "[value]",
+                "bill_id": "[value]",
+                "item_id": "[value]",
+                "price": "[value]",
+                "qty": "[value]",
+                "total": "[value]"
+            }
+        ]
+    }
+]

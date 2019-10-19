@@ -1,0 +1,42 @@
+{
+    "operation": "sales_return",
+    "table_operation": [
+        {
+            "table_name": "sales_return",
+            "operation": "insert",
+            "rows": [
+                {
+                    "_id": "[value]",
+                    "date": "[value]",
+                    "bill_id": "[value]",
+                    "item_id": "[value]",
+                    "price": "[value]",
+                    "qty": "[value]",
+                    "total": "[value]"
+                }
+            ]
+        },
+        {
+            "table_name": "sales_cart",
+            "operation": "update",
+            "rows": [
+                {
+                    "_id": "[value]",
+                    "item_return_qty": "[value]"
+                }
+            ]
+        },
+        {
+            "table_name": "sales_detail",
+            "operation": "update",
+            "rows": [
+                {
+                    "_id": "[value]",
+                    "returned_total": "[value]",
+                    "current_total": "[value]",
+                    "due": "[value]"
+                }
+            ]
+        }
+    ]
+}

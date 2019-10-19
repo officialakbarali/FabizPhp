@@ -1,0 +1,24 @@
+{
+    "operation": "add_customer",
+    "table_operation": [
+        {
+            "table_name": "customer",
+            "operation": "insert",
+            "rows": [
+                {
+                    "_id": "[value]",
+                    "staff_id": "[value]",
+                    "cr_no": "[value]",
+                    "shop_name": "[value]",
+                    "customer_name": "[value]",
+                    "phone": "[value]",
+                    "email": "[value]",
+                    "address": "[value]",
+                    "day": "[value]",
+                    "vat_no": "[value]",
+                    "telephone": "[value]"
+                }
+            ]
+        }
+    ]
+}

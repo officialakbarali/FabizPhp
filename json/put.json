@@ -1,0 +1,203 @@
+[
+    {
+        "operation": "id_modified",
+        "table_name": "[value=staff or value=item or value=customer or value=sales_detail or value=sales_cart or value=payment or value=sales_return]",
+        "old_id": "[value]",
+        "new_id": "[value]"
+    },
+    {
+        "operation": "delete",
+        "table_name": "[value]",
+        "_id": "[value]"
+    },
+    {
+        "operation": "add_staff",
+        "table_operation": [
+            {
+                "table_name": "staff",
+                "operation": "insert",
+                "rows": [
+                    {
+                        "_id": "[value]",
+                        "name": "[value]"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "operation": "add_item",
+        "table_operation": [
+            {
+                "table_name": "item",
+                "operation": "insert",
+                "rows": [
+                    {
+                        "_id": "[value]",
+                        "barcode": "[value]",
+                        "item_name": "[value]",
+                        "item_brand": "[value]",
+                        "item_category": "[value]",
+                        "item_price": "[value]",
+                        "item_vat_percentage": "[value]",
+                        "item_vat_amount": "[value]",
+                        "item_total_price": "[value]"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "operation": "add_customer",
+        "table_operation": [
+            {
+                "table_name": "customer",
+                "operation": "insert",
+                "rows": [
+                    {
+                        "_id": "[value]",
+                        "staff_id": "[value]",
+                        "cr_no": "[value]",
+                        "shop_name": "[value]",
+                        "customer_name": "[value]",
+                        "phone": "[value]",
+                        "email": "[value]",
+                        "address": "[value]",
+                        "day": "[value]",
+                        "vat_no": "[value]",
+                        "telephone": "[value]"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "operation": "sales",
+        "table_operation": [
+            {
+                "table_name": "sales_detail",
+                "operation": "insert",
+                "rows": [
+                    {
+                        "_id": "[value]",
+                        "customer_id": "[value]",
+                        "date": "[value]",
+                        "qty": "[value]",
+                        "total": "[value]",
+                        "total_vat_amount": "[value]",
+                        "grand_total": "[value]",
+                        "returned_total": "[value]",
+                        "current_total": "[value]",
+                        "paid": "[value]",
+                        "due": "[value]"
+                    }
+                ]
+            },
+            {
+                "table_name": "sales_cart",
+                "operation": "insert",
+                "rows": [
+                    {
+                        "_id": "[value]",
+                        "bill_id": "[value]",
+                        "item_id": "[value]",
+                        "item_name": "[value]",
+                        "item_brand": "[value]",
+                        "item_category": "[value]",
+                        "item_price": "[value]",
+                        "item_vat_percentage": "[value]",
+                        "item_vat_amount": "[value]",
+                        "item_total_price": "[value]",
+                        "qty": "[value]",
+                        "total": "[value]",
+                        "total_vat_amount": "[value]",
+                        "grand_total": "[value]",
+                        "item_return_qty": "[value]"
+                    }
+                ]
+            },
+            {
+                "table_name": "payment",
+                "operation": "insert",
+                "rows": [
+                    {
+                        "_id": "[value]",
+                        "bill_id": "[value]",
+                        "date": "[value]",
+                        "amount": "[value]"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "operation": "add_payment",
+        "table_operation": [
+            {
+                "table_name": "payment",
+                "operation": "insert",
+                "rows": [
+                    {
+                        "_id": "[value]",
+                        "bill_id": "[value]",
+                        "date": "[value]",
+                        "amount": "[value]"
+                    }
+                ]
+            },
+            {
+                "table_name": "sales_detail",
+                "operation": "update",
+                "rows": [
+                    {
+                        "_id": "[value]",
+                        "paid": "[value]",
+                        "due": "[value]"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "operation": "sales_return",
+        "table_operation": [
+            {
+                "table_name": "sales_return",
+                "operation": "insert",
+                "rows": [
+                    {
+                        "_id": "[value]",
+                        "date": "[value]",
+                        "bill_id": "[value]",
+                        "item_id": "[value]",
+                        "price": "[value]",
+                        "qty": "[value]",
+                        "total": "[value]"
+                    }
+                ]
+            },
+            {
+                "table_name": "sales_cart",
+                "operation": "update",
+                "rows": [
+                    {
+                        "_id": "[value]",
+                        "item_return_qty": "[value]"
+                    }
+                ]
+            },
+            {
+                "table_name": "sales_detail",
+                "operation": "update",
+                "rows": [
+                    {
+                        "_id": "[value]",
+                        "returned_total": "[value]",
+                        "current_total": "[value]",
+                        "due": "[value]"
+                    }
+                ]
+            }
+        ]
+    }
+]
