@@ -1,0 +1,28 @@
+{
+    "operation": "add_payment",
+    "table_operation": [
+        {
+            "table_name": "payment",
+            "operation": "insert",
+            "rows": [
+                {
+                    "_id": "[value]",
+                    "bill_id": "[value]",
+                    "date": "[value]",
+                    "amount": "[value]"
+                }
+            ]
+        },
+        {
+            "table_name": "sales_detail",
+            "operation": "update",
+            "rows": [
+                {
+                    "_id": "[value]",
+                    "paid": "[value]",
+                    "due": "[value]"
+                }
+            ]
+        }
+    ]
+}

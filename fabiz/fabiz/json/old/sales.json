@@ -1,0 +1,52 @@
+{
+    "operation": "sales",
+    "table_operation": [
+        {
+            "table_name": "sales_detail",
+            "operation": "insert",
+            "rows": [
+                {
+                    "_id": "[value]",
+                    "customer_id": "[value]",
+                    "date": "[value]",
+                    "qty": "[value]",
+                    "total": "[value]",
+                    "returned_total": "[value]",
+                    "current_total": "[value]",
+                    "paid": "[value]",
+                    "due": "[value]"
+                }
+            ]
+        },
+        {
+            "table_name": "sales_cart",
+            "operation": "insert",
+            "rows": [
+                {
+                    "_id": "[value]",
+                    "bill_id": "[value]",
+                    "item_id": "[value]",
+                    "item_name": "[value]",
+                    "item_brand": "[value]",
+                    "item_category": "[value]",
+                    "item_price": "[value]",
+                    "qty": "[value]",
+                    "total": "[value]",
+                    "item_return_qty": "[value]"
+                }
+            ]
+        },
+        {
+            "table_name": "payment",
+            "operation": "insert",
+            "rows": [
+                {
+                    "_id": "[value]",
+                    "bill_id": "[value]",
+                    "date": "[value]",
+                    "amount": "[value]"
+                }
+            ]
+        }
+    ]
+}

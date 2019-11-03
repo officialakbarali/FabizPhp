@@ -1,0 +1,15 @@
+{
+    "operation": "add_staff",
+    "table_operation": [
+        {
+            "table_name": "staff",
+            "operation": "insert",
+            "rows": [
+                {
+                    "_id": "[value]",
+                    "name": "[value]"
+                }
+            ]
+        }
+    ]
+}
